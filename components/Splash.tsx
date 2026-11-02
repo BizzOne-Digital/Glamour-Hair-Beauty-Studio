@@ -46,7 +46,7 @@ export function Splash() {
         <div className="splash-bar">
           <span />
         </div>
-        <p className="splash-est">Est. March 2004 · Karachi</p>
+        <p className="splash-est">Since 2004 · Karachi</p>
       </div>
     </div>
   );

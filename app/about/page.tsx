@@ -8,7 +8,7 @@ import { VisitCTA } from "@/components/VisitCTA";
 export const metadata: Metadata = {
   title: "About Us — Serving Karachi Since 2004",
   description:
-    "Glamour Hair & Beauty Studio has served ladies and gentlemen in Karachi since March 2004. Learn about our 22+ years of experience, philosophy and mission.",
+    "Glamour Hair & Beauty Studio has served ladies and gentlemen in Karachi since 2004. Learn about our 22+ years of experience, philosophy and mission.",
   alternates: { canonical: "/about" },
 };
 
@@ -27,7 +27,7 @@ export default function AboutPage() {
         crumb="About"
         eyebrow="About Glamour"
         title={<>A legacy of <span className="text-gold-metal italic">beauty &amp; trust.</span></>}
-        text="Since March 2004, Glamour Hair & Beauty Studio has been a trusted part of the Karachi community — serving generations with style and care."
+        text="Since 2004, Glamour Hair & Beauty Studio has been a trusted part of the Karachi community — serving generations with style and care."
         image="/images/about-interior.jpg"
         alt="Glamour studio interior with black styling chairs and round mirrors"
       />
@@ -43,11 +43,11 @@ export default function AboutPage() {
         </div>
         <div className="reveal [--delay:200ms]">
           <p className="eyebrow">Our Story</p>
-          <h2 className="mt-4 font-serif text-4xl leading-tight sm:text-5xl">Established March 2004</h2>
+          <h2 className="mt-4 font-serif text-4xl leading-tight sm:text-5xl">Since 2004</h2>
           <div className="mt-6 space-y-4 leading-relaxed text-white/75">
             <p>
-              Welcome to Glamour Hair &amp; Beauty Studio, proudly serving the community in Karachi, Pakistan, since
-              March 2004. With over 22 years of experience in the hair and beauty industry, we have built our
+              Welcome to Glamour Hair &amp; Beauty Studio, proudly serving the community in Karachi, Pakistan, since 2004.
+              With over 22 years of experience in the hair and beauty industry, we have built our
               reputation on professional service, quality workmanship, customer satisfaction, and a commitment to
               helping our clients look and feel their best.
             </p>
@@ -56,7 +56,7 @@ export default function AboutPage() {
               haircuts, hairstyling, hair colouring, grooming, hair treatments, and beauty care.
             </p>
             <p>
-              Since our establishment in March 2004, we have remained committed to serving our community with
+              Since our establishment in 2004, we have remained committed to serving our community with
               dedication, professionalism, and personalised attention.
             </p>
             <p className="font-serif text-xl text-gold italic">
@@ -77,6 +77,19 @@ export default function AboutPage() {
               <dd className="text-gold-metal font-serif text-5xl">10</dd>
             </div>
           </dl>
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-3xl px-5 pb-24 text-center sm:px-8">
+        <div className="reveal">
+          <p className="eyebrow">Meet Our Owner</p>
+          <h2 className="mt-4 font-serif text-4xl leading-tight sm:text-5xl">Ms. Yasmeen Khan</h2>
+          <span className="gold-rule mx-auto mt-6 block w-28" />
+          <p className="mt-6 text-lg leading-relaxed text-white/75">
+            Glamour Hair &amp; Beauty Studio was founded in 2004 by Ms. Yasmeen Khan, who continues to own and manage
+            the salon. Together with her team of skilled professionals, she is committed to providing professional,
+            affordable hair and beauty services in a friendly and welcoming environment.
+          </p>
         </div>
       </section>
 

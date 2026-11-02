@@ -18,7 +18,7 @@ export default function ServicesPage() {
       <PageHero
         crumb="Services"
         ctaLabel="Enquire on WhatsApp"
-        eyebrow="Proudly Serving the Community Since March 2004"
+        eyebrow="Proudly Serving the Community Since 2004"
         title={<>Our <span className="text-gold-metal italic">Services</span></>}
         text="With over 22 years of experience, Glamour Hair & Beauty Studio provides professional hair and beauty services for ladies and gentlemen in Karachi, Pakistan."
         image="/images/about-studio.jpg"
@@ -76,7 +76,7 @@ export default function ServicesPage() {
         <div className="reveal mx-auto max-w-3xl">
           <p className="eyebrow">Our Commitment</p>
           <p className="mt-6 font-serif text-3xl leading-snug sm:text-4xl">
-            Since March 2004, Glamour Hair &amp; Beauty Studio has been committed to professional workmanship, hygiene,
+            Since 2004, Glamour Hair &amp; Beauty Studio has been committed to professional workmanship, hygiene,
             personalised customer service, and quality hair and beauty care at affordable prices.
           </p>
           <div className="gold-rule mx-auto my-8 w-40" />

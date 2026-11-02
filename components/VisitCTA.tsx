@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Clock, MapPin, Navigation, Phone } from "lucide-react";
-import { mapsEmbedUrl, mapsUrl, site } from "@/lib/site";
+import { fullAddress, mapsEmbedUrl, mapsUrl, site } from "@/lib/site";
 import { WhatsAppButton, WhatsAppIcon } from "./ui";
 
 export function VisitCTA({ showMap = true }: { showMap?: boolean }) {
@@ -39,7 +39,7 @@ export function VisitCTA({ showMap = true }: { showMap?: boolean }) {
               <div>
                 <dt className="text-xs tracking-[0.2em] text-white/50 uppercase">Address</dt>
                 <dd className="text-white/85">
-                  {site.address.street}, {site.address.city} - {site.address.postalCode}, {site.address.region}
+                  {fullAddress}
                 </dd>
               </div>
             </div>
@@ -75,14 +75,14 @@ export function MapEmbed() {
       <div className="overflow-hidden rounded-sm border border-gold/40">
         <iframe
           src={mapsEmbedUrl}
-          title={`Map showing ${site.address.street}, ${site.address.city}`}
+          title={`Map showing ${fullAddress}`}
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
           className="h-[380px] w-full grayscale-[0.6] invert-[0.9] hue-rotate-180 lg:h-full lg:min-h-[460px]"
         />
       </div>
       <figcaption className="mt-3 text-xs text-white/50">
-        Map located by our street address. Please call or WhatsApp if you need help finding us.
+        Map shows our area in Karachi. Please call or WhatsApp if you need help finding us.
       </figcaption>
     </figure>
   );

@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { cacheLife } from "next/cache";
 import { ArrowUp, Clock, Mail, MapPin, Navigation, Phone } from "lucide-react";
-import { mapsUrl, nav, site, waLink } from "@/lib/site";
+import { fullAddress, mapsUrl, nav, site, waLink } from "@/lib/site";
 import Image from "next/image";
 import { WhatsAppIcon } from "./ui";
 
@@ -52,8 +52,7 @@ export function Footer() {
             <li className="flex gap-3">
               <MapPin className="mt-0.5 size-4 shrink-0 text-gold" aria-hidden="true" />
               <address className="not-italic">
-                {site.address.street},<br />
-                {site.address.city} - {site.address.postalCode}, {site.address.region}
+                {fullAddress}
               </address>
             </li>
             <li>

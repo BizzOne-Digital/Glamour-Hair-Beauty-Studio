@@ -55,7 +55,7 @@ function Hero() {
           </span>
         </h1>
         <p className="enter mt-7 max-w-md text-base leading-relaxed text-white/80 [--d:550ms] sm:text-lg">
-          <span className="block font-semibold text-white">Proudly Serving the Community Since March 2004</span>
+          <span className="block font-semibold text-white">Proudly Serving the Community Since 2004</span>
           Over 22 years of experience in hair styling, hair colouring &amp; beauty care for ladies and gents in Karachi.
         </p>
         <div className="enter mt-9 flex flex-col gap-3 [--d:700ms] sm:flex-row">
@@ -72,7 +72,7 @@ function Hero() {
           <span className="h-16 w-px bg-linear-to-b from-transparent via-gold to-transparent" />
           <span className="leading-snug">
             <span className="block text-sm font-bold tracking-[0.24em] text-white uppercase sm:text-base">Years of Excellence</span>
-            <span className="mt-1.5 block font-serif text-lg text-gold italic sm:text-xl">Since March 2004</span>
+            <span className="mt-1.5 block font-serif text-lg text-gold italic sm:text-xl">Since 2004</span>
           </span>
         </div>
         <p className="enter mt-8 max-w-lg border-l-2 border-gold pl-5 font-serif text-xl leading-snug text-white/95 italic [--d:1000ms] sm:text-2xl">
@@ -167,7 +167,7 @@ function About() {
               <text className="fill-current text-[7px] font-semibold uppercase">
                 {/* textLength stretches the phrase to exactly one lap of the circle (2π × 38). */}
                 <textPath href="#seal-path" textLength={237} lengthAdjust="spacing">
-                  Serving Generations · Since March 2004 ·
+                  Serving Generations · Since 2004 ·
                 </textPath>
               </text>
             </svg>
@@ -187,8 +187,7 @@ function About() {
           </h2>
           <span className="gold-rule mt-8 block w-28" />
           <p className="mt-8 text-lg leading-relaxed text-white/75">
-            Welcome to Glamour Hair &amp; Beauty Studio, proudly serving the community in Karachi, Pakistan, since March
-            2004. With over 22 years of experience in the hair and beauty industry, we have built our reputation on
+            Welcome to Glamour Hair &amp; Beauty Studio, proudly serving the community in Karachi, Pakistan, since 2004. With over 22 years of experience in the hair and beauty industry, we have built our reputation on
             professional service, quality workmanship, customer satisfaction, and a commitment to helping our clients
             look and feel their best.
           </p>
@@ -236,7 +235,7 @@ function Offers() {
             <p className="mt-4 font-serif text-2xl text-gold italic">Because you deserve the best!</p>
             <span className="gold-rule mt-8 block w-28" />
             <p className="mt-8 max-w-lg text-lg leading-relaxed text-white/70">
-              Proudly serving the Karachi community since March 2004, we value our customers&apos; continued trust,
+              Proudly serving the Karachi community since 2004, we value our customers&apos; continued trust,
               loyalty, and support. To show our appreciation, we offer opportunities for special packages and seasonal
               promotions.
             </p>
@@ -333,12 +332,12 @@ function GalleryTrust() {
         </div>
         <aside className="reveal relative self-start overflow-hidden rounded-sm border border-gold/40 p-8 sm:p-10 lg:sticky lg:top-28">
           <div className="absolute inset-x-0 top-0 h-px bg-gold" />
-          <p className="eyebrow">Since March 2004</p>
+          <p className="eyebrow">Since 2004</p>
           <h2 className="mt-4 font-serif text-4xl leading-tight">
             Your Beauty, <span className="text-gold-metal italic">Our Passion</span>
           </h2>
           <p className="mt-5 leading-relaxed text-white/70">
-            Since March 2004, we have remained committed to professional workmanship, hygiene, personalised customer
+            Since 2004, we have remained committed to professional workmanship, hygiene, personalised customer
             service, and quality hair and beauty care at affordable prices.
           </p>
           <ul className="mt-8 space-y-4">

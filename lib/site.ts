@@ -6,7 +6,7 @@ export const site = {
   shortName: "Glamour",
   tagline: "Serving Generations with Style and Care Since 2004",
   brandLine: "Where Style Meets Elegance",
-  established: "March 2004",
+  established: "2004",
   foundingYear: 2004,
   experience: "22+",
   phone: "+92 332 8289434",
@@ -15,7 +15,6 @@ export const site = {
   // Hidden everywhere until the client confirms a real address.
   email: null as string | null,
   address: {
-    street: "303 A5 Rabia Petal, Abu Al Isphani Road",
     city: "Karachi",
     region: "Sindh",
     postalCode: "74400",
@@ -31,9 +30,9 @@ export const site = {
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000",
 };
 
-export const fullAddress = `${site.address.street}, ${site.address.city} - ${site.address.postalCode}, ${site.address.region}, Pakistan`;
+export const fullAddress = `${site.address.city} – ${site.address.postalCode}, ${site.address.region} – Pakistan`;
 const mapQuery = encodeURIComponent(fullAddress);
-// Search-based map: points at the supplied address, not a verified Google Business pin.
+// Search-based map: points at the city/postcode only, not a verified Google Business pin.
 export const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${mapQuery}`;
 export const mapsEmbedUrl = `https://www.google.com/maps?q=${mapQuery}&output=embed`;
 

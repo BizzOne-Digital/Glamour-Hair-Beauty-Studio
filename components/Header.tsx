@@ -5,7 +5,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { Clock, MapPin, Menu, Phone, X } from "lucide-react";
-import { nav, site, waLink } from "@/lib/site";
+import { fullAddress, nav, site, waLink } from "@/lib/site";
 import { WhatsAppIcon } from "./ui";
 
 // Horizontal lockup cut from the client's master logo (public/logo); the full
@@ -45,7 +45,7 @@ export function Header() {
         <div className="mx-auto flex max-w-7xl items-center justify-center gap-x-6 gap-y-1 px-5 py-2 sm:justify-between sm:px-8">
           <p className="hidden items-center gap-2 md:flex">
             <MapPin className="size-3.5 text-gold" aria-hidden="true" />
-            {site.address.street}, {site.address.city} - {site.address.postalCode}
+            {fullAddress}
           </p>
           <div className="flex items-center gap-5">
             <a href={site.phoneHref} className="flex items-center gap-2 hover:text-gold">

@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     template: `%s | ${site.name}`,
   },
   description:
-    "Professional hair salon in Karachi for ladies and gents since 2004. Haircuts, colouring, highlights, styling, treatments and gents' grooming on Abu Al Isphani Road, near Gulshan-e-Iqbal.",
+    "Professional hair salon in Karachi for ladies and gents since 2004. Haircuts, colouring, highlights, styling, treatments and gents' grooming in Karachi.",
   keywords: [
     "hair salon in Karachi", "beauty salon Karachi", "hair colouring Karachi", "ladies salon Gulshan-e-Iqbal",
-    "gents grooming Karachi", "hair cutting Karachi", "Abul Hasan Isphahani Road salon",
+    "gents grooming Karachi", "hair cutting Karachi",
   ],
   openGraph: { type: "website", siteName: site.name, locale: "en_PK", images: ["/logo/logo-full.png"] },
 };
@@ -40,7 +40,7 @@ const jsonLd = {
   "@type": "HairSalon",
   name: site.name,
   slogan: site.tagline,
-  foundingDate: "2004-03",
+  foundingDate: "2004",
   telephone: "+923328289434",
   url: site.url,
   image: `${site.url}/images/about-interior.jpg`,
@@ -49,7 +49,6 @@ const jsonLd = {
   hasMap: mapsUrl,
   address: {
     "@type": "PostalAddress",
-    streetAddress: site.address.street,
     addressLocality: site.address.city,
     addressRegion: site.address.region,
     postalCode: site.address.postalCode,
