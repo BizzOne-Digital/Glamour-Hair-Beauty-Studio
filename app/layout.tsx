@@ -49,6 +49,7 @@ const jsonLd = {
   hasMap: mapsUrl,
   address: {
     "@type": "PostalAddress",
+    streetAddress: site.address.street,
     addressLocality: site.address.city,
     addressRegion: site.address.region,
     postalCode: site.address.postalCode,
